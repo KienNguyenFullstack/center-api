@@ -1,0 +1,23 @@
+###
+POST http://localhost:5000/api/auth/login 
+Content-Type: application/json
+
+{
+    "email":"nkien9450@gmail.com",
+    "password":"1234567890"
+}
+
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "email":"nkien9450@gmail.com",
+    "username":"Nguyen Trung Kien",
+    "password":"1234567890",
+    "avatar":"",
+    "role":"User"
+}
+
+###
+GET http://localhost:5000/api/auth/users
